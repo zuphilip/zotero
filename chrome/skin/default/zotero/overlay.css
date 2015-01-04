@@ -222,7 +222,7 @@
 #zotero-item-pane
 {
 	width: 338px;
-	min-width: 338px;
+	min-width: 100px;
 }
 
 #zotero-pane .toolbar
@@ -582,6 +582,8 @@
 	font-size: 11px !important;
 	margin-right: 0;
 	width: 172px;
+	min-width: 50px;
+	max-width: 200px;
 }
 
 #zotero-tb-search-menu-button
